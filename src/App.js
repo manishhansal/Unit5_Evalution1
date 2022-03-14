@@ -7,10 +7,10 @@ function App() {
     <div id='main'>
 
       <div id='main1'>
-        <Vegetables name="Tomatoes"/>
-        <Vegetables name="Potatoes"/>
-        <Vegetables name="Carrots"/>
-        <Vegetables name="Onions"/>
+        <Vegetables name="Tomatoes" initC={10}/>
+        <Vegetables name="Potatoes" initC={8}/>
+        <Vegetables name="Carrots" initC={7}/>
+        <Vegetables name="Onions" initC={5}/>
       </div>
 
       <div>
